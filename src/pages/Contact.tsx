@@ -15,9 +15,9 @@ const Contact = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <SEO
-        title="Contact Us | Surface Pro Refinishing | Free Consultation & Quote"
-        description="Contact Surface Pro Refinishing for a free consultation. Call (770) 310-2402 or fill out our contact form. Expert bathtub, cabinet, and countertop refinishing in Atlanta."
-        keywords="contact Surface Pro Refinishing, free quote Atlanta, refinishing consultation, bathtub refinishing quote, cabinet refinishing estimate, Atlanta refinishing contact"
+        title="Contact Us | Fairfield Kitchen Cabinets | Free Consultation & Quote"
+        description="Contact Fairfield Kitchen Cabinets for a free consultation. Call (770) 310-2402 or fill out our contact form. Expert bathtub, cabinet, and countertop refinishing in Fairfield."
+        keywords="contact Fairfield Kitchen Cabinets, free quote Fairfield, refinishing consultation, bathtub refinishing quote, cabinet refinishing estimate, Fairfield refinishing contact"
         structuredData={breadcrumbSchema}
       />
       <Header />

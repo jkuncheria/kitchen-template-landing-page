@@ -4,7 +4,7 @@ export const getLocalBusinessSchema = () => ({
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "@id": "https://www.resurfacega.com",
-  "name": "Surface Pro Refinishing",
+  "name": "Fairfield Kitchen Cabinets",
   "image": "https://www.resurfacega.com/logo.png",
   "logo": "https://www.resurfacega.com/logo.png",
   "url": "https://www.resurfacega.com",
@@ -12,7 +12,7 @@ export const getLocalBusinessSchema = () => ({
   "priceRange": "$$",
   "address": {
     "@type": "PostalAddress",
-    "addressLocality": "Atlanta",
+    "addressLocality": "Fairfield",
     "addressRegion": "GA",
     "addressCountry": "US"
   },
@@ -24,7 +24,7 @@ export const getLocalBusinessSchema = () => ({
   "areaServed": [
     {
       "@type": "City",
-      "name": "Atlanta"
+      "name": "Fairfield"
     },
     {
       "@type": "City",
@@ -52,7 +52,7 @@ export const getLocalBusinessSchema = () => ({
     },
     "geoRadius": {
       "@type": "Distance",
-      "name": "Metro Atlanta Area"
+      "name": "Metro Fairfield Area"
     }
   },
   "hasOfferCatalog": {
@@ -106,12 +106,12 @@ export const getServiceSchema = (serviceName: string, description: string, price
   "description": description,
   "provider": {
     "@type": "LocalBusiness",
-    "name": "Surface Pro Refinishing",
+    "name": "Fairfield Kitchen Cabinets",
     "telephone": "+17703102402"
   },
   "areaServed": {
     "@type": "City",
-    "name": "Atlanta"
+    "name": "Fairfield"
   },
   ...(price && {
     "offers": {
@@ -137,7 +137,7 @@ export const getBreadcrumbSchema = (items: Array<{ name: string; url: string }>)
 export const getOrganizationSchema = () => ({
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "Surface Pro Refinishing",
+  "name": "Fairfield Kitchen Cabinets",
   "url": "https://www.resurfacega.com",
   "logo": "https://www.resurfacega.com/logo.png",
   "contactPoint": {
@@ -156,7 +156,7 @@ export const getOrganizationSchema = () => ({
 export const getWebSiteSchema = () => ({
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "name": "Surface Pro Refinishing",
+  "name": "Fairfield Kitchen Cabinets",
   "url": "https://www.resurfacega.com",
   "potentialAction": {
     "@type": "SearchAction",

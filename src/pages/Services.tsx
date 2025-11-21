@@ -87,9 +87,9 @@ const Services = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <SEO
-        title="Our Services | Bathtub, Shower, Cabinet & Countertop Resurfacing | Surface Pro Refinishing"
-        description="Professional refinishing services in Atlanta: bathtub resurfacing, shower resurfacing, cabinet refinishing, countertop resurfacing, and more. Affordable alternative to replacement. Free quotes available."
-        keywords="bathtub resurfacing, shower resurfacing, cabinet refinishing, countertop resurfacing, tub reglazing, jacuzzi resurfacing, garden tub resurfacing, claw foot tub reglazing, Atlanta refinishing services"
+        title="Our Services | Bathtub, Shower, Cabinet & Countertop Resurfacing | Fairfield Kitchen Cabinets"
+        description="Professional refinishing services in Fairfield: bathtub resurfacing, shower resurfacing, cabinet refinishing, countertop resurfacing, and more. Affordable alternative to replacement. Free quotes available."
+        keywords="bathtub resurfacing, shower resurfacing, cabinet refinishing, countertop resurfacing, tub reglazing, jacuzzi resurfacing, garden tub resurfacing, claw foot tub reglazing, Fairfield refinishing services"
         structuredData={structuredData}
       />
       <Header />
@@ -97,7 +97,7 @@ const Services = () => {
         <section className="py-20 bg-secondary/30">
           <div className="container mx-auto px-4">
             <div className="text-center max-w-3xl mx-auto mb-16 animate-fade-in">
-              <h1 className="font-display text-4xl md:text-5xl font-bold mb-4">Bathtub, Shower, Cabinet & Countertop Resurfacing Services in Atlanta</h1>
+              <h1 className="font-display text-4xl md:text-5xl font-bold mb-4">Bathtub, Shower, Cabinet & Countertop Resurfacing Services in Fairfield</h1>
               <p className="text-lg text-muted-foreground">
                 We provide a range of professional resurfacing services designed to transform your home
               </p>

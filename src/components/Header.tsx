@@ -114,7 +114,7 @@ const Header = () => {
             <span className={`text-xl font-display font-bold tracking-tight transition-colors duration-300 ${
               isTransparent ? 'text-white drop-shadow-lg' : 'text-foreground'
             }`}>
-              NewKitchen
+              Fairfield Kitchen Cabinets
             </span>
           </Link>
           
@@ -127,7 +127,7 @@ const Header = () => {
             <span className={`text-2xl font-display font-bold tracking-tight transition-colors duration-300 ${
               isTransparent ? 'text-white drop-shadow-lg' : 'text-foreground'
             }`}>
-              New Kitchen
+              Fairfield Kitchen Cabinets
             </span>
           </Link>
 

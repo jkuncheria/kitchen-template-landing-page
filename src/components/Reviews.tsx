@@ -25,14 +25,14 @@ const Reviews = () => {
             What Our <span className="text-primary">Customers Say</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Don't just take our word for it - hear from homeowners who have transformed their spaces with Surface Pro Refinishing
+            Don't just take our word for it - hear from homeowners who have transformed their spaces with Fairfield Kitchen Cabinets
           </p>
         </div>
 
         {/* Elfsight Google Reviews Widget */}
         <div className="max-w-7xl mx-auto">
           <div 
-            className="elfsight-app-03c5492a-a64e-43c7-8dc3-cc7619bbf80d" 
+            className="elfsight-app-3c4eff2a-8278-4e5c-b3d0-7f6352a753a6" 
             data-elfsight-app-lazy
           />
         </div>

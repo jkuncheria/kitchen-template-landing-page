@@ -20,8 +20,8 @@ const About = () => {
             </h2>
             <div className="space-y-4 text-muted-foreground">
               <p>
-                Welcome to <span className="font-semibold text-foreground">Surface Pro Refinishing</span>, 
-                your premier provider of high-quality resurfacing services in the Metro Atlanta area. We specialize 
+                Welcome to <span className="font-semibold text-foreground">Fairfield Kitchen Cabinets</span>, 
+                your premier provider of high-quality resurfacing services in the Metro Fairfield area. We specialize 
                 in transforming your kitchen and bathroom spaces through expert cabinet, bathtub/shower, and countertop refinishing.
               </p>
               <p>

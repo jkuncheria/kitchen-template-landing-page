@@ -100,7 +100,7 @@ const ContactForm = () => {
             <div className="inline-flex items-center justify-center w-16 h-16 bg-accent/10 rounded-full mb-6">
               <Mail className="w-8 h-8 text-accent" />
             </div>
-            <h1 className="font-display text-4xl md:text-5xl font-bold mb-4">Contact Surface Pro Refinishing</h1>
+            <h1 className="font-display text-4xl md:text-5xl font-bold mb-4">Contact Fairfield Kitchen Cabinets</h1>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">Let's talk about your project. Fill out the form below or give us a call to get started on transforming your space.</p>
           </div>
 
@@ -169,7 +169,7 @@ const ContactForm = () => {
                         value={formData.address}
                         onChange={handleChange}
                         className="h-10 border border-foreground/20 focus:border-accent focus:ring-1 focus:ring-accent/20 transition-all bg-background text-sm"
-                        placeholder="123 Main St, Atlanta, GA 30301"
+                        placeholder="123 Main St, Fairfield, GA 30301"
                       />
                     </div>
 

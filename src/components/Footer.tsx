@@ -5,7 +5,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const serviceAreas = [
-    { city: "Atlanta", zip: "30301-30399" },
+    { city: "Fairfield", zip: "30301-30399" },
     { city: "Marietta", zip: "30060-30068" },
     { city: "Alpharetta", zip: "30004-30009" },
     { city: "Roswell", zip: "30075-30077" },
@@ -23,7 +23,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <Link to="/" className="hover:opacity-80 transition-opacity">
-                <span className="text-xl font-bold text-background">New Kitchen</span>
+                <span className="text-xl font-bold text-background">Fairfield Kitchen Cabinets</span>
               </Link>
             </div>
             <p className="text-background/80 text-sm">
@@ -35,19 +35,15 @@ const Footer = () => {
           <div>
             <h3 className="font-bold text-lg mb-4">Contact</h3>
             <div className="space-y-3 text-sm">
-              <a href="tel:7703102402" className="flex items-center gap-2 text-background/80 hover:text-background transition-colors">
+              <a href="tel:9738731745" className="flex items-center gap-2 text-background/80 hover:text-background transition-colors">
                 <Phone className="w-4 h-4" />
-                (770) 310-2402
-              </a>
-              <a href="mailto:info@resurfacega.com" className="flex items-center gap-2 text-background/80 hover:text-background transition-colors">
-                <Mail className="w-4 h-4" />
-                info@resurfacega.com
+                (973) 873-1745
               </a>
               <div className="flex items-start gap-2 text-background/80">
                 <MapPin className="w-4 h-4 mt-0.5" />
                 <div>
-                  <div>1400 General Arts Rd NW Suite F</div>
-                  <div>Conyers, GA 30012</div>
+                  <div>93 US 46</div>
+                  <div>Fairfield, NJ 07004</div>
                 </div>
               </div>
             </div>
@@ -70,7 +66,7 @@ const Footer = () => {
             <div className="mt-4 pt-4 border-t border-background/20">
               <p className="text-sm text-background/70 mb-3">Don't see your area?</p>
               <a
-                href="tel:7703102402"
+                href="tel:9738731745"
                 className="inline-flex items-center gap-2 text-background/80 hover:text-background transition-colors text-sm"
               >
                 <Phone className="w-4 h-4" />
@@ -129,7 +125,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-background/20 pt-8 text-center text-sm text-background/60">
-          <p>&copy; {currentYear} Surface Pro Refinishing. All rights reserved.</p>
+          <p>&copy; {currentYear} Fairfield Kitchen Cabinets. All rights reserved.</p>
         </div>
       </div>
     </footer>

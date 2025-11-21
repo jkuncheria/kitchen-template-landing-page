@@ -13,9 +13,9 @@ interface SEOProps {
 }
 
 const SEO = ({
-  title = "Surface Pro Refinishing Atlanta | Bathtub, Cabinet & Countertop Resurfacing",
-  description = "Expert bathtub refinishing, cabinet resurfacing, and countertop restoration in Atlanta. Affordable alternative to replacement. Transform your kitchen & bathroom with precision.",
-  keywords = "bathtub refinishing, tub resurfacing, cabinet refinishing, countertop resurfacing, Atlanta, Georgia, bathroom renovation, kitchen refacing, bathtub reglazing",
+  title = "Fairfield Kitchen Cabinets Fairfield | Bathtub, Cabinet & Countertop Resurfacing",
+  description = "Expert bathtub refinishing, cabinet resurfacing, and countertop restoration in Fairfield. Affordable alternative to replacement. Transform your kitchen & bathroom with precision.",
+  keywords = "bathtub refinishing, tub resurfacing, cabinet refinishing, countertop resurfacing, Fairfield, Georgia, bathroom renovation, kitchen refacing, bathtub reglazing",
   canonical,
   ogImage = "https://www.resurfacega.com/logo.png",
   ogType = "website",
@@ -65,7 +65,7 @@ const SEO = ({
     updateMetaTag("og:url", fullUrl, true);
     updateMetaTag("og:type", ogType, true);
     updateMetaTag("og:image", ogImage, true);
-    updateMetaTag("og:site_name", "Surface Pro Refinishing", true);
+    updateMetaTag("og:site_name", "Fairfield Kitchen Cabinets", true);
 
     // Update Twitter Card tags
     updateMetaTag("twitter:card", "summary_large_image");

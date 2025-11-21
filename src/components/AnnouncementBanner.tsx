@@ -1,7 +1,7 @@
 const AnnouncementBanner = () => {
   return (
     <a
-      href="https://www.atlantanewsfirst.com/2025/01/23/transform-your-kitchen-or-bathroom-with-surface-pro-refinishing/"
+      href="https://www.Fairfieldnewsfirst.com/2025/01/23/transform-your-kitchen-or-bathroom-with-surface-pro-refinishing/"
       target="_blank"
       rel="noopener noreferrer"
       className="inline-flex items-center justify-center gap-2 mb-1 animate-fade-in hover:opacity-80 transition-opacity cursor-pointer"
@@ -11,7 +11,7 @@ const AnnouncementBanner = () => {
       </span>
       <img 
         src="/anf.png" 
-        alt="Atlanta News First" 
+        alt="Fairfield News First" 
         className="h-5 md:h-6 object-contain"
       />
     </a>

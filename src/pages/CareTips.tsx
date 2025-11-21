@@ -17,7 +17,7 @@ const CareTips = () => {
   return (
     <div className="min-h-screen">
       <SEO
-        title="Care & Maintenance Instructions | Bathtub Refinishing Care Tips | Surface Pro Refinishing"
+        title="Care & Maintenance Instructions | Bathtub Refinishing Care Tips | Fairfield Kitchen Cabinets"
         description="Complete care and maintenance guide for your newly re-glazed bathtub. Learn proper cleaning methods, approved cleaners, and products to avoid. Maintain your warranty with proper care."
         keywords="bathtub care tips, refinishing maintenance, bathtub cleaning guide, re-glazed tub care, refinishing care instructions, bathtub maintenance tips"
         structuredData={breadcrumbSchema}
@@ -32,13 +32,13 @@ const CareTips = () => {
                 <Sparkles className="w-10 h-10 text-primary-foreground" />
               </div>
               <h1 className="text-4xl md:text-5xl font-display font-bold mb-4">
-                Surface Pro Refinishing
+                Fairfield Kitchen Cabinets
               </h1>
               <h2 className="text-3xl md:text-4xl font-display font-bold mb-6">
                 Care & Maintenance Instructions for Your Newly Re-Glazed Tub
               </h2>
               <p className="text-lg text-muted-foreground">
-                Thank you for trusting Surface Pro Refinishing to restore your bathtub. Your new finish is designed to last, but like any high-quality surface, it needs proper care to maintain durability and shine.
+                Thank you for trusting Fairfield Kitchen Cabinets to restore your bathtub. Your new finish is designed to last, but like any high-quality surface, it needs proper care to maintain durability and shine.
               </p>
             </div>
           </div>
@@ -275,7 +275,7 @@ const CareTips = () => {
 
             {/* Footer Message */}
             <div className="text-center py-8">
-              <p className="text-muted-foreground mb-2">Thank you for choosing Surface Pro Refinishing.</p>
+              <p className="text-muted-foreground mb-2">Thank you for choosing Fairfield Kitchen Cabinets.</p>
               <p className="text-lg font-semibold text-foreground">Revive • Refresh • Refinish</p>
             </div>
           </div>

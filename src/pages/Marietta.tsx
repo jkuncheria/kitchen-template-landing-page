@@ -42,9 +42,9 @@ const Marietta = () => {
   return (
     <div className="min-h-screen">
       <SEO
-        title="Service Areas | Marietta & Metro Atlanta | Surface Pro Refinishing"
-        description="Surface Pro Refinishing serves Marietta, Atlanta, and surrounding Metro Atlanta areas. Expert bathtub, cabinet, and countertop refinishing services. Call for service area information."
-        keywords="Marietta refinishing, Atlanta refinishing services, Metro Atlanta refinishing, Marietta bathtub refinishing, service areas, refinishing near me"
+        title="Service Areas | Marietta & Metro Fairfield | Fairfield Kitchen Cabinets"
+        description="Fairfield Kitchen Cabinets serves Marietta, Fairfield, and surrounding Metro Fairfield areas. Expert bathtub, cabinet, and countertop refinishing services. Call for service area information."
+        keywords="Marietta refinishing, Fairfield refinishing services, Metro Fairfield refinishing, Marietta bathtub refinishing, service areas, refinishing near me"
         structuredData={breadcrumbSchema}
       />
       <Header />
@@ -57,7 +57,7 @@ const Marietta = () => {
                 <MapPin className="w-10 h-10 text-primary-foreground" />
               </div>
               <h1 className="text-4xl md:text-5xl font-display font-bold mb-6">
-                Surface Pro Refinishing in Marietta, GA
+                Fairfield Kitchen Cabinets in Marietta, GA
               </h1>
               <p className="text-xl text-muted-foreground mb-8">
                 Your trusted local experts for bathtub refinishing, cabinet refinishing, and more in Marietta and surrounding areas
@@ -84,8 +84,8 @@ const Marietta = () => {
                   <h2 className="text-3xl font-bold mb-6">Serving Marietta Homeowners</h2>
                   <div className="space-y-4 text-muted-foreground">
                     <p>
-                      Surface Pro Refinishing is proud to serve homeowners throughout <span className="font-semibold text-foreground">Marietta, Georgia</span> and 
-                      the surrounding Metro Atlanta area. We understand the unique needs of Marietta residents and are committed to providing 
+                      Fairfield Kitchen Cabinets is proud to serve homeowners throughout <span className="font-semibold text-foreground">Marietta, Georgia</span> and 
+                      the surrounding Metro Fairfield area. We understand the unique needs of Marietta residents and are committed to providing 
                       exceptional refinishing services that transform your home without the cost and hassle of full replacements.
                     </p>
                     <p>

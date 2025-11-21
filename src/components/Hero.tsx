@@ -86,10 +86,10 @@ const Hero = () => {
       <div className="relative z-10 container mx-auto px-4 pt-40 md:pt-32 pb-32 text-center">
         <div className="max-w-4xl mx-auto space-y-12 animate-fade-in">
           <h1 className="font-display text-5xl md:text-7xl font-bold text-background leading-tight drop-shadow-2xl">
-            Chicago's Premier <br /> <span className="text-accent font-extrabold drop-shadow-[0_4px_8px_rgba(0,0,0,0.8)]">Kitchen Remodelers</span>
+            Fairfield's Premier <br /> <span className="text-accent font-extrabold drop-shadow-[0_4px_8px_rgba(0,0,0,0.8)]">Kitchen Remodelers</span>
           </h1>
           <p className="text-lg text-background/80 max-w-2xl mx-auto">
-            Expert bathtub, cabinet, and countertop refinishing services in Chicagoland. 
+            Expert bathtub, cabinet, and countertop refinishing services in New Jersey. 
           </p>
 
           {/* Multi-Step Form */}

@@ -2,7 +2,7 @@ import { MapPin, Phone } from "lucide-react";
 
 const ServiceArea = () => {
   const serviceAreas = [
-    { city: "Atlanta", zip: "30301-30399" },
+    { city: "Fairfield", zip: "30301-30399" },
     { city: "Marietta", zip: "30060-30068" },
     { city: "Alpharetta", zip: "30004-30009" },
     { city: "Roswell", zip: "30075-30077" },
@@ -23,7 +23,7 @@ const ServiceArea = () => {
             Service Areas
           </h2>
           <p className="text-foreground/70 max-w-2xl mx-auto">
-            Proudly serving Metro Atlanta and surrounding areas with professional refinishing services
+            Proudly serving Metro Fairfield and surrounding areas with professional refinishing services
           </p>
         </div>
 

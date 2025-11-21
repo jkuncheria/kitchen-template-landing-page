@@ -16,9 +16,9 @@ const Warranty = () => {
   return (
     <div className="min-h-screen">
       <SEO
-        title="5-Year Limited Warranty | Surface Pro Refinishing | Bathtub Refinishing Warranty"
-        description="Surface Pro Refinishing offers a comprehensive 5-year limited warranty on bathtub refinishing services. Learn about warranty coverage, exclusions, and customer responsibilities."
-        keywords="bathtub refinishing warranty, refinishing warranty Atlanta, 5 year warranty, bathtub resurfacing warranty, refinishing service warranty, warranty coverage"
+        title="5-Year Limited Warranty | Fairfield Kitchen Cabinets | Bathtub Refinishing Warranty"
+        description="Fairfield Kitchen Cabinets offers a comprehensive 5-year limited warranty on bathtub refinishing services. Learn about warranty coverage, exclusions, and customer responsibilities."
+        keywords="bathtub refinishing warranty, refinishing warranty Fairfield, 5 year warranty, bathtub resurfacing warranty, refinishing service warranty, warranty coverage"
         structuredData={breadcrumbSchema}
       />
       <Header />
@@ -31,13 +31,13 @@ const Warranty = () => {
                 <Shield className="w-10 h-10 text-primary-foreground" />
               </div>
               <h1 className="text-4xl md:text-5xl font-display font-bold mb-4">
-                Surface Pro Refinishing
+                Fairfield Kitchen Cabinets
               </h1>
               <h2 className="text-3xl md:text-4xl font-display font-bold mb-6">
                 Limited 5-Year Warranty – Bathtub Refinishing
               </h2>
               <p className="text-lg text-muted-foreground">
-                This Limited Warranty is provided by Surface Pro Refinishing and applies to the professional refinishing of the bathtub surface listed on the customer's invoice. This warranty is valid for five (5) years from the date of completion and covers defects in workmanship and coating adhesion under normal residential use.
+                This Limited Warranty is provided by Fairfield Kitchen Cabinets and applies to the professional refinishing of the bathtub surface listed on the customer's invoice. This warranty is valid for five (5) years from the date of completion and covers defects in workmanship and coating adhesion under normal residential use.
               </p>
             </div>
           </div>
@@ -187,7 +187,7 @@ const Warranty = () => {
                   If you believe warranty repair is required:
                 </p>
                 <ol className="space-y-3 text-muted-foreground list-decimal list-inside ml-2 mb-4">
-                  <li>Contact Surface Pro Refinishing by phone, text, or email.</li>
+                  <li>Contact Fairfield Kitchen Cabinets by phone, text, or email.</li>
                   <li>Provide photos of the area of concern.</li>
                   <li>We will schedule an evaluation and determine warranty eligibility.</li>
                 </ol>
@@ -226,7 +226,7 @@ const Warranty = () => {
                   <div>
                     <h2 className="text-2xl md:text-3xl font-bold mb-4">Limitations</h2>
                     <p className="text-muted-foreground mb-4">
-                      Surface Pro Refinishing is not responsible for:
+                      Fairfield Kitchen Cabinets is not responsible for:
                     </p>
                     <ul className="space-y-2 text-muted-foreground">
                       <li className="flex items-start gap-3">
@@ -286,7 +286,7 @@ const Warranty = () => {
 
             {/* Footer Message */}
             <div className="text-center py-8">
-              <p className="text-lg font-semibold text-foreground mb-2">Surface Pro Refinishing</p>
+              <p className="text-lg font-semibold text-foreground mb-2">Fairfield Kitchen Cabinets</p>
               <p className="text-lg font-semibold text-foreground">Revive • Refresh • Refinish</p>
             </div>
           </div>

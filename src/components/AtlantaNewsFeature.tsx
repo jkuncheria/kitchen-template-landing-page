@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Play, Award } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
-const AtlantaNewsFeature = () => {
+const FairfieldNewsFeature = () => {
   return (
     <section className="py-20 bg-gradient-to-br from-primary/5 via-background to-accent/5">
       <div className="container mx-auto px-4">
@@ -19,18 +19,18 @@ const AtlantaNewsFeature = () => {
                     <span>Featured on</span>
                     <img 
                       src="/anf.png" 
-                      alt="Atlanta News First" 
+                      alt="Fairfield News First" 
                       className="h-6 object-contain"
                     />
                   </div>
                 </div>
                 
                 <h2 className="text-3xl md:text-4xl font-display font-bold mb-4">
-                  Surface Pro Refinishing in the News
+                  Fairfield Kitchen Cabinets in the News
                 </h2>
                 
                 <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                  We're thrilled to share that <span className="font-semibold text-foreground">Surface Pro Refinishing</span> has recently been featured by <span className="font-semibold text-foreground">Atlanta News First!</span> This recognition highlights our commitment to quality resurfacing services that breathe new life into your home.
+                  We're thrilled to share that <span className="font-semibold text-foreground">Fairfield Kitchen Cabinets</span> has recently been featured by <span className="font-semibold text-foreground">Fairfield News First!</span> This recognition highlights our commitment to quality resurfacing services that breathe new life into your home.
                 </p>
                 
                 <p className="text-muted-foreground mb-8 leading-relaxed">
@@ -42,7 +42,7 @@ const AtlantaNewsFeature = () => {
                     size="lg" 
                     className="bg-primary hover:bg-primary/90 text-primary-foreground"
                     onClick={() => {
-                      window.open('https://www.atlantanewsfirst.com/2025/01/23/transform-your-kitchen-or-bathroom-with-surface-pro-refinishing/', '_blank');
+                      window.open('https://www.Fairfieldnewsfirst.com/2025/01/23/transform-your-kitchen-or-bathroom-with-surface-pro-refinishing/', '_blank');
                     }}
                   >
                     <Play className="w-5 h-5 mr-2" />
@@ -53,14 +53,14 @@ const AtlantaNewsFeature = () => {
               
               {/* Right Side - Visual */}
               <a 
-                href="https://www.atlantanewsfirst.com/2025/01/23/transform-your-kitchen-or-bathroom-with-surface-pro-refinishing/"
+                href="https://www.Fairfieldnewsfirst.com/2025/01/23/transform-your-kitchen-or-bathroom-with-surface-pro-refinishing/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="relative overflow-hidden min-h-[400px] md:min-h-[500px] flex items-center justify-center bg-background hover:opacity-90 transition-opacity cursor-pointer group"
               >
                 <img 
                   src="/interview.png" 
-                  alt="Surface Pro Refinishing featured on Atlanta News First" 
+                  alt="Fairfield Kitchen Cabinets featured on Fairfield News First" 
                   className="w-full h-full object-contain"
                 />
                 <div className="absolute inset-0 flex items-center justify-center z-10">
@@ -77,5 +77,5 @@ const AtlantaNewsFeature = () => {
   );
 };
 
-export default AtlantaNewsFeature;
+export default FairfieldNewsFeature;
 

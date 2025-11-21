@@ -18,9 +18,9 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <SEO
-        title="Surface Pro Refinishing Atlanta | Bathtub, Cabinet & Countertop Resurfacing"
-        description="Expert bathtub refinishing, cabinet resurfacing, and countertop restoration in Atlanta. Affordable alternative to replacement. Transform your kitchen & bathroom with precision. 70% savings vs full replacement."
-        keywords="bathtub refinishing Atlanta, tub resurfacing Georgia, cabinet refinishing, countertop resurfacing, bathroom renovation Atlanta, kitchen refacing, bathtub reglazing, shower resurfacing, Atlanta refinishing services"
+        title="Fairfield Kitchen Cabinets Fairfield | Bathtub, Cabinet & Countertop Resurfacing"
+        description="Expert bathtub refinishing, cabinet resurfacing, and countertop restoration in Fairfield. Affordable alternative to replacement. Transform your kitchen & bathroom with precision. 70% savings vs full replacement."
+        keywords="bathtub refinishing Fairfield, tub resurfacing Georgia, cabinet refinishing, countertop resurfacing, bathroom renovation Fairfield, kitchen refacing, bathtub reglazing, shower resurfacing, Fairfield refinishing services"
         structuredData={structuredData}
       />
       <Header />
