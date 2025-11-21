@@ -23,11 +23,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <Link to="/" className="hover:opacity-80 transition-opacity">
-                <img 
-                  src="/logo.png" 
-                  alt="Surface Pro Refinishing Logo" 
-                  className="w-12 h-12 rounded-full object-cover"
-                />
+                <span className="text-xl font-bold text-background">New Kitchen</span>
               </Link>
             </div>
             <p className="text-background/80 text-sm">

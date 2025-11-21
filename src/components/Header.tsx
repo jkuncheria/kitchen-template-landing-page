@@ -12,6 +12,7 @@ import {
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isAboutOpen, setIsAboutOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
   const location = useLocation();
   const navigate = useNavigate();
 
@@ -19,6 +20,17 @@ const Header = () => {
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }, [location.pathname]);
+
+  // Handle scroll detection for header animation
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 20);
+    };
+    window.addEventListener('scroll', handleScroll);
+    // Set initial state
+    handleScroll();
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   const scrollToElement = (id: string, delay: number = 100) => {
     setTimeout(() => {
@@ -66,15 +78,26 @@ const Header = () => {
     }
   };
 
+  // Determine if we should show transparent header (only on home page at top)
+  const isTransparent = !isScrolled && location.pathname === "/";
+
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
-      <nav className="container mx-auto px-4 py-7 md:py-4">
+    <header 
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 border-b ${
+        isTransparent
+          ? 'bg-transparent py-6 md:py-6 border-transparent'
+          : 'bg-background/95 backdrop-blur-md py-4 md:py-4 shadow-sm border-border'
+      }`}
+    >
+      <nav className="container mx-auto px-4">
         <div className="flex items-center justify-between relative">
           {/* Mobile: Call Now CTA - Left of centered logo */}
           <Button 
             asChild 
             size="sm"
-            className="md:hidden bg-accent hover:bg-accent/90 text-background text-xs px-3 py-2 h-auto relative z-20"
+            className={`md:hidden bg-accent hover:bg-accent/90 text-background text-xs px-3 py-2 h-auto relative z-20 transition-all duration-300 ${
+              isTransparent ? 'opacity-90' : ''
+            }`}
           >
             <a href="tel:7703102402">
               <Phone className="w-3.5 h-3.5 mr-1.5" />
@@ -86,26 +109,26 @@ const Header = () => {
           <Link 
             to="/" 
             onClick={handleLogoClick} 
-            className="md:hidden absolute left-1/2 -translate-x-1/2 flex items-center hover:opacity-80 transition-opacity z-10"
+            className="md:hidden absolute left-1/2 -translate-x-1/2 flex items-center hover:opacity-80 transition-all duration-300 z-10"
           >
-            <img 
-              src="/logo.png" 
-              alt="Surface Pro Refinishing Logo" 
-              className="w-20 h-20 md:w-20 md:h-20 rounded-full object-cover"
-            />
+            <span className={`text-xl font-display font-bold tracking-tight transition-colors duration-300 ${
+              isTransparent ? 'text-white drop-shadow-lg' : 'text-foreground'
+            }`}>
+              NewKitchen
+            </span>
           </Link>
           
           {/* Desktop: Left Logo */}
           <Link 
             to="/" 
             onClick={handleLogoClick} 
-            className="hidden md:flex items-center hover:opacity-80 transition-opacity"
+            className="hidden md:flex items-center hover:opacity-80 transition-all duration-300"
           >
-            <img 
-              src="/logo.png" 
-              alt="Surface Pro Refinishing Logo" 
-              className="w-20 h-20 rounded-full object-cover"
-            />
+            <span className={`text-2xl font-display font-bold tracking-tight transition-colors duration-300 ${
+              isTransparent ? 'text-white drop-shadow-lg' : 'text-foreground'
+            }`}>
+              New Kitchen
+            </span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -118,12 +141,16 @@ const Header = () => {
                   window.scrollTo({ top: 0, behavior: "smooth" });
                 }
               }}
-              className="text-foreground hover:text-accent hover:bg-accent/10 px-3 py-2 rounded-md transition-all"
+              className={`hover:text-accent hover:bg-accent/10 px-3 py-2 rounded-md transition-all duration-300 ${
+                isTransparent ? 'text-white/90' : 'text-foreground'
+              }`}
             >
               Home
             </Link>
             <DropdownMenu>
-              <DropdownMenuTrigger className="text-foreground hover:text-accent hover:bg-accent/10 px-3 py-2 rounded-md transition-all flex items-center gap-1 outline-none focus:bg-accent/10">
+              <DropdownMenuTrigger className={`hover:text-accent hover:bg-accent/10 px-3 py-2 rounded-md transition-all duration-300 flex items-center gap-1 outline-none focus:bg-accent/10 ${
+                isTransparent ? 'text-white/90' : 'text-foreground'
+              }`}>
                 About
                 <ChevronDown className="w-4 h-4" />
               </DropdownMenuTrigger>
@@ -150,10 +177,20 @@ const Header = () => {
                 </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
-            <Link to="/services" className="text-foreground hover:text-accent hover:bg-accent/10 px-3 py-2 rounded-md transition-all">
+            <Link 
+              to="/services" 
+              className={`hover:text-accent hover:bg-accent/10 px-3 py-2 rounded-md transition-all duration-300 ${
+                isTransparent ? 'text-white/90' : 'text-foreground'
+              }`}
+            >
               Our Services
             </Link>
-            <Link to="/contact" className="text-foreground hover:text-accent hover:bg-accent/10 px-3 py-2 rounded-md transition-all">
+            <Link 
+              to="/contact" 
+              className={`hover:text-accent hover:bg-accent/10 px-3 py-2 rounded-md transition-all duration-300 ${
+                isTransparent ? 'text-white/90' : 'text-foreground'
+              }`}
+            >
               Contact
             </Link>
             <div className="flex items-center gap-3">
@@ -175,7 +212,9 @@ const Header = () => {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="md:hidden p-2 hover:bg-secondary rounded-lg transition-colors relative z-20 ml-auto"
+            className={`md:hidden p-2 hover:bg-secondary rounded-lg transition-all duration-300 relative z-20 ml-auto ${
+              isTransparent && !isMenuOpen ? 'text-white' : 'text-foreground'
+            }`}
           >
             {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
@@ -183,7 +222,7 @@ const Header = () => {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="md:hidden mt-4 py-4 space-y-4 animate-fade-in">
+          <div className="md:hidden absolute top-full left-0 right-0 bg-background shadow-xl border-t border-border py-6 px-4 flex flex-col space-y-4 animate-fade-in-down">
             <Link 
               to="/" 
               onClick={(e) => {
