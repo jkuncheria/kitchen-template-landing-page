@@ -6,7 +6,6 @@ import WhyChooseUs from "@/components/WhyChooseUs";
 import Reviews from "@/components/Reviews";
 import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
-import AtlantaNewsFeature from "@/components/AtlantaNewsFeature";
 import SEO from "@/components/SEO";
 import { getLocalBusinessSchema, getWebSiteSchema } from "@/lib/structuredData";
 
@@ -27,9 +26,8 @@ const Index = () => {
       <Header />
       <main>
         <Hero />
-        <AtlantaNewsFeature />
-        <Services />
         <About />
+        <Services />
         <Reviews />
         <ContactForm />
         <WhyChooseUs />
